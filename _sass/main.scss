@@ -1,0 +1,59 @@
+$sectionMargin: 25px;
+
+.current {
+    color: green;
+}
+
+nav {
+    display: flex;
+    flex-flow: row;
+    align-content: center;
+    align-items: center;
+    // background-color: yellow;
+}
+
+nav .links {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    flex-grow: 2;
+    // background-color: red;
+
+    font-size: 25px;
+}
+
+nav a {
+    margin: 25px;
+}
+
+body {
+    font-family: 'Zen Kaku Gothic Antique', Arial, sans-serif;
+    margin: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: $sectionMargin;
+    margin-bottom: ($sectionMargin / 3) * 2;
+}
+
+h2 {
+    font-size: 32px;
+    margin-top: ($sectionMargin / 3) * 2;
+    margin-bottom: ($sectionMargin / 3) * 1.5;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: ($sectionMargin / 3) * 1.5;
+    margin-bottom: ($sectionMargin / 3) * 1.25;
+}
+
+.section {
+    margin-top: $sectionMargin;
+    margin-bottom: $sectionMargin;
+}
+
+p, li {
+    font-size: 25px;
+}

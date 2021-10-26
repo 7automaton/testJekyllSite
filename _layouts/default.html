@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }} | Jekyll Test Site</title>
+        <link rel="stylesheet" href="/assets/css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        {% feed_meta %}
+        {% seo %}
+    </head>
+    <body>
+        {% include navigation.html %}
+        {{ content }}
+    </body>
+</html>
