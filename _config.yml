@@ -1,7 +1,7 @@
 domain: 7automaton.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://7automaton.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /test-jekyll-site         # place folder name if the site is served in a subfolder
-repository: 7automaton/test-jekyll-site
+baseurl: /testJekyllSite         # place folder name if the site is served in a subfolder
+repository: 7automaton/testJekyllSite
 
 collections:
   authors:
